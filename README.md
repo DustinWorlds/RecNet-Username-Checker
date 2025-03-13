@@ -1,6 +1,23 @@
-# RecNet-Username-Checker
+# Rec Room Username Availability Checker
+A Python script that checks the availability of usernames on Rec Room using the official API. The script can generate and test multiple usernames automatically.
 
-Check for Unclaimed Usernames in Rec room
+# Features
+Username Validation: Checks if a username is already claimed or available.
+Automated Generation: Generates usernames using lowercase letters up to a specified length.
+Custom Input: Allows users to check specific usernames.
+API Integration: Uses Rec Room's API to verify username status.
+# Requirements
+Python 3.x
+requests library (pip install requests)
+# Usage
+Edit the script to define:
+max_length and min_length for generated usernames.
+usernames_to_check for specific usernames.
+Run the script:
+sh
+Code kopieren
+python script.py
+The script will output whether each username is claimed or available.
 
 ## Username Options
 
