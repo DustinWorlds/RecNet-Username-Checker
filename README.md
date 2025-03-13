@@ -13,10 +13,7 @@ requests library (pip install requests)
 Edit the script to define:
 max_length and min_length for generated usernames.
 usernames_to_check for specific usernames.
-Run the script:
-sh
-Code kopieren
-python script.py
+
 The script will output whether each username is claimed or available.
 
 ## Username Options
